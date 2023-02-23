@@ -7,3 +7,7 @@ A simplified CLI minesweeper game made using Java.
 ### Gameplay Screenshots
 
 ![secondCap](https://user-images.githubusercontent.com/119549394/220911122-9842595d-c125-41be-b174-5001eb1021db.PNG)
+
+
+### Tech Stack
+- Java
