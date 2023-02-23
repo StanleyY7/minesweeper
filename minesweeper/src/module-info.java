@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author stanl
- *
- */
-module minesweeper {
-}
