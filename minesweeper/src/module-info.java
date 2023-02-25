@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author stanl
+ *
+ */
+module minesweeper {
+}
