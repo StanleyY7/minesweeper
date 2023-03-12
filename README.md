@@ -24,8 +24,13 @@ The main requirements of this project were:
 
 - That the grid re-renders to the console after every user command.
 
+## Bonus
+
+- I added J-Unit Testing
+- I refactored my original procedural programming minesweeper code into OOP (refactored version is in "minesweeperOOP" folder) whereby I also implemented the Command Design Pattern.
+
 ## Summary
-I achieved the above requirements by first implementing the methods one by one in order. As an example I created the grid first, I then made methods to render it,  place bombs and then added more logic/methods accordingly until all MVP requirements were met. I then added bonus features, such as colors for grid elements (i.e. a bomb is red) as well as a wins/losses tracker which is printed at the initial start of the game. 
+I achieved the above requirements by first implementing the methods one by one in order. As an example I created the grid first, I then made methods to render it,  place bombs and then added more logic/methods accordingly until all MVP requirements were met. I then added bonus features, such as colors for grid elements (i.e. a bomb is red) as well as a wins/losses tracker which is printed at the initial start of the game.
 
 ### Gameplay Screenshot
 
