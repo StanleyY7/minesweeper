@@ -1,0 +1,23 @@
+name: J-Unit Tests
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Java
+        uses: actions/setup-java@v1
+        with:
+          java-version: "17"
+
+      - name: Build with Maven
+        run: mvn -B package --file ./production/pom.xml -DskipTests
+
+      - name: Run tests with Maven
+        run: mvn test --file ./production/pom.xml
