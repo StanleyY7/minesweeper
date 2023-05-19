@@ -1,5 +1,7 @@
 # Project: Minesweeper
 
+(I have also refactored this (procedurally) into Go link is: https://github.com/StanleyY7/golangPractice/tree/main/basics/minesweeper I am also working on an OOP refactor into Go)
+
 ![minesweeperCap](https://user-images.githubusercontent.com/119549394/221120751-fc4440fb-5ed6-484b-a650-4076c357cb28.PNG)
 
 A simplified CLI minesweeper game made using Java. 
